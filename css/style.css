@@ -27,3 +27,26 @@
 .zoom:hover {
     transform: scale(1.5);
 }
+
+.space-tb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-me {
+    font-weight: 600;
+}
+
+.img-me {
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.martop {
+    margin-top: 20px;
+}
+
+.justify {
+    text-align: justify;
+}
