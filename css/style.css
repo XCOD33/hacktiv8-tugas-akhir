@@ -1,7 +1,7 @@
 .homepage {
     height: 100vh;
     min-height: 500px;
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/media/images/computer.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("/media/images/computer.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +14,14 @@
 
 .menu-title {
     font-family: 'Oswald', sans-serif;
+}
+
+.menu-title h1 {
+    font-weight: 700;
+}
+
+.menu-title h1 span {
+    color: #700B97;
 }
 
 .zoom:hover {
