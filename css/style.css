@@ -1,3 +1,29 @@
+@media (min-width: 577px) {
+    .computer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-center {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .cellphone {
+        display: none !important;
+    }
+
+    .icon-social {
+        text-align: center;
+    }
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
 .homepage {
     height: 100vh;
     min-height: 500px;
@@ -28,25 +54,15 @@
     transform: scale(1.5);
 }
 
-.space-tb {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.space-element {
+    margin: 50px auto;
 }
 
-.about-me {
-    font-weight: 600;
-}
-
-.img-me {
-    width: 200px;
+.img-about-me {
     border-radius: 100%;
-    margin-top: 20px;
+    width: 300px;
 }
 
-.martop {
-    margin-top: 20px;
-}
-
-.justify {
-    text-align: justify;
+.icon-social a {
+    color: #000;
 }
