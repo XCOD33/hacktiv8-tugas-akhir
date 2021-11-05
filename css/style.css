@@ -55,7 +55,8 @@ p {
 }
 
 .space-element {
-    margin: 50px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .img-about-me {
@@ -65,4 +66,23 @@ p {
 
 .icon-social a {
     color: #000;
+}
+
+.bg-grey {
+    background-color: rgb(250, 250, 250);
+    padding-top: 100px;
+}
+
+.img-portfolio {
+    /* height: 300px; [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+.img-portfolio img {
+    transition: transform .5s ease;
+}
+
+.img-portfolio:hover img {
+    transform: scale(1.5);
+    cursor: pointer;
 }
